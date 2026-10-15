@@ -1,0 +1,14 @@
+{
+  "detection": { "min_confidence": 0.35 },
+  "congestion": { "persist_seconds": 3, "recover_seconds": 5 },
+  "lines": [
+    { "id": "line_1", "name": "Main counting line", "p1": [0.10, 0.62], "p2": [0.90, 0.62] }
+  ],
+  "regions": [
+    {
+      "id": "zone_1", "name": "Main road",
+      "polygon": [[0.10, 0.35], [0.90, 0.35], [0.98, 0.95], [0.02, 0.95]],
+      "warning": 8, "critical": 15
+    }
+  ]
+}
